@@ -1,0 +1,22 @@
+{
+  "name": "mini-single-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rimraf dist && rollup -c rollup.config.js --environment NODE_ENV:development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.69.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.2"
+  }
+}
